@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./styles.css";
 
 const Nav = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
             <img
@@ -31,11 +32,7 @@ const Nav = () => {
                   Home
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/about">
-                  About
-                </Link>
-              </li>
+
               <li className="nav-item">
                 <Link className="nav-link" to="/committee">
                   Committee
@@ -47,8 +44,8 @@ const Nav = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/committee">
-                  Committee
+                <Link className="nav-link" to="/events">
+                  Events
                 </Link>
               </li>
             </ul>
