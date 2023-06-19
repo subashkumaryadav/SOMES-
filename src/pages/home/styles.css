@@ -64,7 +64,7 @@ body {
 
 /* About us  */
 .about-container {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -87,9 +87,12 @@ body {
   font-size: 4rem;
   font-weight: bold;
 }
-.about-image img {
-  width: 700px;
-  height: 700px;
+/* President message */
+.president-msg-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 @media screen and (max-width: 1314px) {
@@ -108,10 +111,7 @@ body {
     width: 25rem;
     height: 25rem;
   }
-  .about-image img {
-    width: 600px;
-    height: 500px;
-  }
+
   .about-content p {
     font-size: 1rem;
   }
@@ -137,10 +137,6 @@ body {
     padding: 5px;
     margin: 5px;
     font-size: medium;
-  }
-  .about-image img {
-    height: 400px;
-    width: 500px;
   }
   .about-content p {
     width: 80%;
@@ -178,7 +174,7 @@ body {
 @media screen and (max-width: 580px) {
   .header-container {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   .header-content h1 {
@@ -199,7 +195,7 @@ body {
   .wheel {
     width: 200px;
     height: 200px;
-    top: 500px;
+    top: 100px;
     left: 180px;
   }
   .about-content {
@@ -228,7 +224,7 @@ body {
   .wheel {
     width: 200px;
     height: 200px;
-    top: 500px;
+    top: 150px;
     left: 80px;
   }
 
