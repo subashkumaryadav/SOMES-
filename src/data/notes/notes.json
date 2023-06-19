@@ -1,0 +1,91 @@
+[
+  {
+    "id": 1000,
+    "year": [
+      {
+        "id": 1001,
+        "sem": "Fist Semester",
+        "Subjects": [
+          {
+            "id": 1,
+            "name": "C PROGRAMMING",
+            "drive": "https://drive.google.com/drive/folders/10rJ99uvNklUUbRJwftIPSCDsy164RD2T?usp=drive_link",
+            "youtube": "https://youtu.be/lXs_AAQnwCc"
+          },
+          {
+            "id": 2,
+            "name": "CHEMISTRY",
+            "drive": "https://drive.google.com/drive/folders/11gqgpzNv0grsyfjJ1fPXxPQOH8B5AeKt?usp=drive_link",
+            "youtube": "https://www.youtube.com"
+          },
+          {
+            "id": 3,
+            "name": "DRAWING",
+            "drive": "https://drive.google.com/drive/folders/11IIaZxEPHjqewMnq21jFK8-E3qGM6pKN?usp=drive_link",
+            "youtube": "https://www.youtube.com/@TIKLESACADEMY"
+          },
+          {
+            "id": 4,
+            "name": "MATHMATICS VOLUME-I",
+            "drive": "https://drive.google.com/drive/folders/1-hTKXIuPT63DolUKPKldb4kLBicdcer4?usp=drive_link",
+            "youtube": "https://www.youtube.com"
+          },
+          {
+            "id": 5,
+            "name": "THERMODYNAMICS",
+            "drive": "https://drive.google.com/drive/folders/1-5FiRpAMkV88pvIYAL6sUa6qsxc2MJIv?usp=drive_link",
+            "youtube": "https://youtu.be/9LNDTi5sxyk"
+          },
+          {
+            "id": 6,
+            "name": "WORKSHOP",
+            "drive": "https://drive.google.com/drive/folders/1-3ms3XO43hdILL3MIoyD-_s5U5LbC8By?usp=drive_link",
+            "youtube": "https://www.youtube.com"
+          },
+          {
+            "id": 7,
+            "name": "QUESTION BANK",
+            "drive": "https://drive.google.com/file/d/11tBl2RbrUnTUHfH8qDxzuIiA6Nba23Ky/view?usp=drive_link",
+            "youtube": "https://www.youtube.com"
+          }
+        ]
+      },
+      {
+        "id": 1002,
+        "sem": "Second Semester",
+        "Subjects": [
+          {
+            "id": 8,
+            "name": "C PROGRAMMING",
+            "drive": "https://drive.google.com/drive/folders/10rJ99uvNklUUbRJwftIPSCDsy164RD2T?usp=drive_link",
+            "youtube": "https://youtu.be/lXs_AAQnwCc"
+          },
+          {
+            "id": 9,
+            "name": "CHEMISTRY",
+            "drive": "https://drive.google.com/drive/folders/11gqgpzNv0grsyfjJ1fPXxPQOH8B5AeKt?usp=drive_link",
+            "youtube": "https://www.youtube.com"
+          },
+          {
+            "id": 10,
+            "name": "DRAWING",
+            "drive": "https://drive.google.com/drive/folders/11IIaZxEPHjqewMnq21jFK8-E3qGM6pKN?usp=drive_link",
+            "youtube": "https://www.youtube.com/@TIKLESACADEMY"
+          },
+          {
+            "id": 11,
+            "name": "MATHMATICS VOLUME-I",
+            "drive": "https://drive.google.com/drive/folders/1-hTKXIuPT63DolUKPKldb4kLBicdcer4?usp=drive_link",
+            "youtube": "https://www.youtube.com"
+          },
+          {
+            "id": 12,
+            "name": "THERMODYNAMICS",
+            "drive": "https://drive.google.com/drive/folders/1-5FiRpAMkV88pvIYAL6sUa6qsxc2MJIv?usp=drive_link",
+            "youtube": "https://youtu.be/9LNDTi5sxyk"
+          }
+        ]
+      }
+    ]
+  }
+]

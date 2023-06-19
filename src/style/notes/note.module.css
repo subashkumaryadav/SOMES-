@@ -1,0 +1,17 @@
+.note_head,.note_main {
+  text-align: center;
+  margin-top: 10px;
+}
+.notes_subj{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+}
+.semeter_St{
+    display: flex;
+    flex-direction: column;
+}
