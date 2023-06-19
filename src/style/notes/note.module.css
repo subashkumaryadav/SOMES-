@@ -1,15 +1,24 @@
+
 .note_head,.note_main {
   text-align: center;
-  margin-top: 10px;
+  background-image: linear-gradient(to right, #32A071,#BA6790,#BA6790,#32A071);
+  color: white;
+}
+.note_main {
+  margin-top: 5px;
 }
 .notes_subj{
     display: flex;
     flex-wrap: wrap;
-    
     justify-content: center;
     align-items: center;
     gap: 5px;
     padding: 10px;
+}
+.note_main h3{
+  font-size: 1.9rem;
+  text-transform: capitalize;
+  text-decoration: underline;
 }
 .semeter_St{
     display: flex;

@@ -20,7 +20,7 @@
           },
           {
             "id": 3,
-            "name": "DRAWING",
+            "name": "DRAWING I",
             "drive": "https://drive.google.com/drive/folders/11IIaZxEPHjqewMnq21jFK8-E3qGM6pKN?usp=drive_link",
             "youtube": "https://www.youtube.com/@TIKLESACADEMY"
           },
@@ -56,34 +56,47 @@
         "Subjects": [
           {
             "id": 8,
-            "name": "C PROGRAMMING",
-            "drive": "https://drive.google.com/drive/folders/10rJ99uvNklUUbRJwftIPSCDsy164RD2T?usp=drive_link",
-            "youtube": "https://youtu.be/lXs_AAQnwCc"
+            "name": "APPLIED MECHANICS",
+            "drive": "https://drive.google.com/drive/folders/12OLpZ1kGMq2Ae38-qWRf2HoYqbzWovbt?usp=drive_link",
+            "youtube": "https://youtu.be/r3_yBdd1Q_Y"
           },
           {
             "id": 9,
-            "name": "CHEMISTRY",
-            "drive": "https://drive.google.com/drive/folders/11gqgpzNv0grsyfjJ1fPXxPQOH8B5AeKt?usp=drive_link",
-            "youtube": "https://www.youtube.com"
+            "name": "BASIC ELECTRICAL",
+            "drive": "https://drive.google.com/drive/folders/12scsMeS4SVLPumx7sD-DKXoWErsgDvij?usp=drive_link",
+            "youtube": "https://youtu.be/dZyKXdvzSz0"
           },
           {
             "id": 10,
-            "name": "DRAWING",
-            "drive": "https://drive.google.com/drive/folders/11IIaZxEPHjqewMnq21jFK8-E3qGM6pKN?usp=drive_link",
-            "youtube": "https://www.youtube.com/@TIKLESACADEMY"
+            "name": "BASIC ELECTRONICS",
+            "drive": "https://drive.google.com/drive/folders/14lHdJ2M57B70DezHdYCsei62Ph39TU6G?usp=drive_link",
+            "youtube": "https://www.youtube.com/live/Hq_8zewfMpY?feature=share"
           },
           {
             "id": 11,
-            "name": "MATHMATICS VOLUME-I",
-            "drive": "https://drive.google.com/drive/folders/1-hTKXIuPT63DolUKPKldb4kLBicdcer4?usp=drive_link",
-            "youtube": "https://www.youtube.com"
+            "name": "DRAWING II",
+            "drive": "https://drive.google.com/drive/folders/15jJQ6VX483TmoHqfvku58jNCncSofX4H?usp=drive_link",
+            "youtube": "https://www.youtube.com/@TIKLESACADEMY"
           },
           {
             "id": 12,
-            "name": "THERMODYNAMICS",
-            "drive": "https://drive.google.com/drive/folders/1-5FiRpAMkV88pvIYAL6sUa6qsxc2MJIv?usp=drive_link",
+            "name": "MATHMATICS VOLUME-II",
+            "drive": "https://drive.google.com/drive/folders/16MH0AFyh8MDEho7BxIML0YI4FsHC7oVQ?usp=drive_link",
             "youtube": "https://youtu.be/9LNDTi5sxyk"
+          },
+           {
+            "id": 12,
+            "name": "PHYSICS",
+            "drive": "https://drive.google.com/drive/folders/16feOV5LS277wOtvKc3PrdPnKpARa2onU?usp=drive_link",
+            "youtube": "https://www.youtube.com/watch?v=a_Ip8LpQokw"
+          },
+           {
+            "id": 12,
+            "name": "QUESTION BANK II SEM",
+            "drive": "https://drive.google.com/drive/folders/17R8aYm5U_bafKNQejjXHbmDTaVW_dBLt?usp=drive_link",
+            "youtube": "https://www.youtube.com"
           }
+          
         ]
       }
     ]

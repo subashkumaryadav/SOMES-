@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const Notes = () => {
   return (
     <Layout>
-      <h1 className={style.note_head}>NOTES & PDF</h1>
+      <h1 className={style.note_head}>NOTES & PDFs</h1>
       { notes.map((current) => {
         const note =current.year;
          return <div className={style.semeter_St} key={current.id}>
