@@ -35,24 +35,56 @@ const Home = () => {
       </div>
       <hr />
       {/* About us section */}
-      <div className="about-container" id="about">
-        <div className="about-content">
-          <h1>About-Us</h1>
-          <p>
-            The{" "}
-            <strong>SOCIETY OF MECHANICAL ENGINEERING STUDENTS (SOMES)</strong>{" "}
-            is the non-political and non-profitable organisation of Department
-            of Mechanical Engineering, Purwanchal Campus. Established in 2013,
-            SOMES has been uplifting the educational experience at Purwanchal
-            Campus through engaging events, impactful training programs, and
-            strong connections with alumni and the administration. The
-            organisation aims to create an environment that fosters innovation,
-            leadership qualities, and prepares students for successful career in
-            mechanical engineering.
-          </p>
+      {/* <div className="about-container" id="about">
+          <div className="about-content">
+            <h1>About-Us</h1>
+            <p>
+              The{" "}
+              <strong>SOCIETY OF MECHANICAL ENGINEERING STUDENTS (SOMES)</strong>{" "}
+              is the non-political and non-profitable organisation of Department
+              of Mechanical Engineering, Purwanchal Campus. Established in 2013,
+              SOMES has been uplifting the educational experience at Purwanchal
+              Campus through engaging events, impactful training programs, and
+              strong connections with alumni and the administration. The
+              organisation aims to create an environment that fosters innovation,
+              leadership qualities, and prepares students for successful career in
+              mechanical engineering.
+            </p>
+          </div>
+          <div className="about-image ">
+            <img
+              className="img=fluid"
+              src="/image/gallery/campus-image.jpg "
+              alt=""
+            />
+          </div>
+        </div> */}
+      <div className="row about-container">
+        <div className="col-lg-6">
+          <img
+            className="img-fluid"
+            src="/image/gallery/campus-image.jpg "
+            alt=""
+          />
         </div>
-        <div className="about-image">
-          <img src="/image/gallery/campus-image.jpg" alt="" />
+        <div className="col-lg-6">
+          <div className="about-content">
+            <h1>About Us</h1>
+            <p>
+              The{" "}
+              <strong>
+                SOCIETY OF MECHANICAL ENGINEERING STUDENTS (SOMES)
+              </strong>{" "}
+              is the non-political and non-profitable organisation of Department
+              of Mechanical Engineering, Purwanchal Campus. Established in 2013,
+              SOMES has been uplifting the educational experience at Purwanchal
+              Campus through engaging events, impactful training programs, and
+              strong connections with alumni and the administration. The
+              organisation aims to create an environment that fosters
+              innovation, leadership qualities, and prepares students for
+              successful career in mechanical engineering.
+            </p>
+          </div>
         </div>
       </div>
     </Layout>
