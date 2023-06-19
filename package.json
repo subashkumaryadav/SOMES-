@@ -9,7 +9,11 @@
     "bootstrap": "^5.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+<<<<<<< HEAD
     "react-icons": "^4.9.0",
+=======
+    "react-helmet": "^6.1.0",
+>>>>>>> 852eefec181ec756cbca5f07487fd5ee5b10eea5
     "react-router-dom": "^6.13.0",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",

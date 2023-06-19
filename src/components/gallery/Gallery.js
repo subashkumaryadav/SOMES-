@@ -28,14 +28,24 @@ const Gallery = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval={10000}>
-            <img src="..." className="d-block w-100" alt="..." />
+            <img
+              src="/image/gallery/campus-image.jpg"
+              className="d-block w-100 img-fluid"
+              alt="..."
+              style={{ height: "600px" }}
+            />
             <div className="carousel-caption d-none d-md-block">
               <h5>This is slide 1</h5>
               <p>content for slide 1</p>
             </div>
           </div>
           <div className="carousel-item" data-bs-interval={2000}>
-            <img src="..." className="d-block w-100" alt="..." />
+            <img
+              src="/image/gallery/campus-image.jpg"
+              className="d-block w-100"
+              alt="..."
+              style={{ height: "600px" }}
+            />
             <div className="carousel-caption d-none d-md-block">
               <h5>Second slide label</h5>
               <p>
@@ -44,7 +54,12 @@ const Gallery = () => {
             </div>
           </div>
           <div className="carousel-item">
-            <img src="..." className="d-block w-100" alt="..." />
+            <img
+              src="/image/gallery/campus-image.jpg"
+              className="d-block w-100"
+              style={{ height: "600px" }}
+              alt="..."
+            />
             <div className="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>
