@@ -1,0 +1,68 @@
+* {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap");
+.note_head {
+  display: flex;
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(
+    to right,
+    #32a071,
+    #ba6790,
+    #ba6790,
+    #32a071
+  );
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+}
+.note_head select {
+  width: 15rem;
+  text-align: center;
+}
+.note_main {
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    #32a071,
+    #ba6790,
+    #ba6790,
+    #32a071
+  );
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 5px;
+}
+.notes_subj {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+}
+.note_main h3 {
+  font-size: 1.9rem;
+  text-transform: capitalize;
+  text-decoration: underline;
+  font-weight: 400;
+}
+.semeter_St {
+  display: flex;
+  flex-direction: column;
+}
+.subjects:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+  .note_head h3{
+      font-size: 1.3rem;
+  }
+  
+}
