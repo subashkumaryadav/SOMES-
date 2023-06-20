@@ -135,12 +135,8 @@ const Home = () => {
           </div>
         </div>
       </div> */}
-      <hr />
-      <h1 className="d-flex justify-content-center crousel-content">
-        Some Glimpses Of Mech-Camp
-      </h1>
-      <Gallery />
-      <hr />
+
+      {/* <Gallery /> */}
     </Layout>
   );
 };
