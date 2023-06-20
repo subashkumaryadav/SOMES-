@@ -2,7 +2,6 @@ import React from "react";
 import Layout from "../../components/layout/Layout";
 import "./styles.css";
 import { Link } from "react-scroll";
-import Gallery from "../../components/gallery/Gallery.js";
 
 const Home = () => {
   return (
@@ -37,13 +36,8 @@ const Home = () => {
       <hr />
       {/* About us section */}
 
-      <div className="about-container container" id="about">
-        <div className="about-content">
-
-
       <div className="row about-container" id="about">
         <div className="col-lg-7 about-content">
-
           <h1>About-Us</h1>
           <p>
             The{" "}
@@ -68,10 +62,6 @@ const Home = () => {
       </div>
       <hr />
       {/* MESSAGE FROM PRESIDENT */}
-
-      <div className="president-msg-container container">
-        <div className="president-msg">
-          <h2>Message From President</h2>
 
       <div className="row  president-msg-container">
         <div className="col-lg-7  president-msg">
@@ -101,7 +91,6 @@ const Home = () => {
           />
         </div>
       </div>
-
 
       {/* <div className="container">
         <div className="row g-3">
@@ -146,9 +135,6 @@ const Home = () => {
           </div>
         </div>
       </div> */}
-
-
-      {/* <Gallery /> */}
     </Layout>
   );
 };

@@ -24,7 +24,7 @@ const GoToTop = () => {
             position: "fixed",
             bottom: "50px",
             right: "10px",
-            color: "rgba(67, 154, 149, 255)",
+            color: "rgba(221,181,34,255)",
             fontSize: "40px",
           }}
         />
