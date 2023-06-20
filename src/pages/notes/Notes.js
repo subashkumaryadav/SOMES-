@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const Notes = () => {
   return (
     <Layout>
-      <h1 className={style.note_head}>BE MECHANICAL STUDY MATERIALS</h1>
+      <h2 className={style.note_head}>BE MECHANICAL STUDY MATERIALS</h2>
       {notes.map((current) => {
         const note = current.year;
         return (
