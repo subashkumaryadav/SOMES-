@@ -48,7 +48,8 @@ const Footer = () => {
                 <FaEnvelope /> Royalak297@gmail.com
               </p>
               <p>
-                <FaPhoneAlt /> 9863450956
+                <FaPhoneAlt />
+                +977 9863450956
               </p>
             </div>
             <div className="col-lg-6 col-sm-6">
@@ -58,7 +59,8 @@ const Footer = () => {
                 <FaEnvelope /> bhusalsuraj1009@gmail.com
               </p>
               <p>
-                <FaPhoneAlt /> 9746413683
+                <FaPhoneAlt />
+                +977 9746413683
               </p>
             </div>
           </div>

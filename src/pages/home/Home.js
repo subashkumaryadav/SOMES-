@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../../components/layout/Layout";
 import "./styles.css";
 import { Link } from "react-scroll";
-
+import Gallery from "../../components/gallery/Gallery.js";
 const Home = () => {
   return (
     <Layout title={"Home-SOMES"}>
@@ -135,6 +135,12 @@ const Home = () => {
           </div>
         </div>
       </div> */}
+      <hr />
+      <h1 className="d-flex justify-content-center crousel-content">
+        Some Glimpses Of Mech-Camp
+      </h1>
+      <Gallery />
+      <hr />
     </Layout>
   );
 };

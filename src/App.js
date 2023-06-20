@@ -10,7 +10,6 @@ import GoToTop from "./components/topButton/GoToTop";
 const App = () => {
   return (
     <>
-      <GoToTop />
       <Router>
         <Routes>
           <Route path="/" element={<Home />}></Route>
@@ -20,6 +19,7 @@ const App = () => {
           <Route path="/events" element={<Events />}></Route>
         </Routes>
       </Router>
+      <GoToTop />
     </>
   );
 };
