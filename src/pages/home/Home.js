@@ -3,7 +3,6 @@ import Layout from "../../components/layout/Layout";
 import "./styles.css";
 import { Link } from "react-scroll";
 import Gallery from "../../components/gallery/Gallery.js";
-
 const Home = () => {
   return (
     <Layout title={"Home-SOMES"}>
