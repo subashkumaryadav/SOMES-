@@ -92,19 +92,12 @@ body {
   font-size: 4rem;
   font-weight: bold;
 }
-<<<<<<< HEAD
-.about-image img {
-  width: 700px;
-  /* height: 700px; */
-  
-=======
 /* President message */
 .president-msg-container {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
->>>>>>> 852eefec181ec756cbca5f07487fd5ee5b10eea5
 }
 
 @media screen and (max-width: 1314px) {
