@@ -2,10 +2,11 @@ import React from "react";
 import Layout from "../../components/layout/Layout";
 import "./styles.css";
 import { Link } from "react-scroll";
+import Gallery from "../../components/gallery/Gallery.js";
 
 const Home = () => {
   return (
-    <Layout>
+    <Layout title={"Home-SOMES"}>
       <div className="header-container">
         <div className="header-content">
           <h1>
@@ -35,8 +36,9 @@ const Home = () => {
       </div>
       <hr />
       {/* About us section */}
-      <div className="about-container" id="about">
-        <div className="about-content">
+
+      <div className="row about-container" id="about">
+        <div className="col-lg-7 about-content">
           <h1>About-Us</h1>
           <p>
             The{" "}
@@ -51,10 +53,45 @@ const Home = () => {
             mechanical engineering.
           </p>
         </div>
-        <div className="about-image">
-          <img src="/image/gallery/campus-image.jpg" alt="" />
+        <div className="col-lg-4 about-image">
+          <img
+            src="/image/gallery/campus-image.jpg"
+            alt=""
+            className="img-fluid"
+          />
         </div>
       </div>
+      <hr />
+      {/* MESSAGE FROM PRESIDENT */}
+      <div className="row  president-msg-container">
+        <div className="col-lg-7  president-msg">
+          <h1>Message From President</h1>
+          <p>
+            Warm greetings, myself Anil Dangi, current president at{" "}
+            <strong>SOMES</strong>, Hailing from the beautiful region of Jumla,
+            I bring with me a unique perspective and a deep appreciation for the
+            rich cultural diversity that exists within our campus community. The
+            atmosphere of Purwanchal Campus has played a significant role in
+            shaping my journey and igniting my love for mechanical engineering.
+            At SOMES, we strive to create a vibrant community where members can
+            excel in their knowledge, skills, and overall professional
+            development in mechanical engineering. We believe in the power of
+            sharing what we know, and I am committed to fostering an inclusive
+            environment that values diverse backgrounds and experiences. Thank
+            you for being a part of SOMES, and I am excited to embark on this
+            remarkable journey with all of you.
+          </p>
+        </div>
+        <div className="col-lg-4 president-image">
+          <img
+            src="/image/members/President.jpg"
+            alt=""
+            className="img-fluid president-img"
+          />
+        </div>
+      </div>
+
+      {/* <Gallery /> */}
     </Layout>
   );
 };

@@ -48,6 +48,11 @@ const Nav = () => {
                   Events
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/alumni">
+                  Alumni
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

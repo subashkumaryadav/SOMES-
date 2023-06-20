@@ -7,6 +7,7 @@ import notes from "../../data/notes/notes.json";
 import { Link } from "react-router-dom";
 
 const Notes = () => {
+<<<<<<< HEAD
   return (
     <Layout>
       <div className={style.note_head}>
@@ -74,6 +75,9 @@ const Notes = () => {
       })}
     </Layout>
   );
+=======
+  return <Layout title={"Notes-SOMES"}>This is notes</Layout>;
+>>>>>>> main
 };
 
 export default Notes;
