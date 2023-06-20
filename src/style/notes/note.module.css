@@ -1,39 +1,69 @@
-*{
-  html{
-    scroll-behavior: smooth
+* {
+  html {
+    scroll-behavior: smooth;
   }
 }
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
-.note_head ,.note_main {
-  text-align: center;
-  background-image: linear-gradient(to right, #32A071,#BA6790,#BA6790,#32A071);
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap");
+.note_head {
+  display: flex;
+  margin-top: 0.4rem;
+  padding: 0.4rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(
+    to right,
+    #32a071,
+    #ba6790,
+    #ba6790,
+    #32a071
+  );
   color: white;
-  
-
+  font-family: "Josefin Sans", sans-serif;
+}
+.note_head select {
+  width: 15rem;
+  text-align: center;
 }
 .note_main {
-  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    #32a071,
+    #ba6790,
+    #ba6790,
+    #32a071
+  );
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
   margin-top: 5px;
 }
-.notes_subj{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    padding: 10px;
+.notes_subj {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
 }
-.note_main h3{
+.note_main h3 {
   font-size: 1.9rem;
   text-transform: capitalize;
   text-decoration: underline;
   font-weight: 400;
 }
-.semeter_St{
-    display: flex;
-    flex-direction: column;
+.semeter_St {
+  display: flex;
+  flex-direction: column;
 }
-.subjects:hover{
+.subjects:hover {
   transform: scale(1.03);
   cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+  .note_head h3{
+      font-size: 1.3rem;
+  }
+  
 }
