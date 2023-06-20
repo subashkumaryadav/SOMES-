@@ -16,7 +16,7 @@ const Notes = () => {
           aria-label=".form-select-sm example"
           id="semValue"
         >
-          <option value="1001">Select Your Semester</option>
+          <option value="1001">Select Semester</option>
           <option value="1001">I Sem</option>
           <option value="1002">II Sem</option>
           <option value="1003">III Sem</option>
