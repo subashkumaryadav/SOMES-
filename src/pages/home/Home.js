@@ -37,8 +37,13 @@ const Home = () => {
       <hr />
       {/* About us section */}
 
+      <div className="about-container container" id="about">
+        <div className="about-content">
+
+
       <div className="row about-container" id="about">
         <div className="col-lg-7 about-content">
+
           <h1>About-Us</h1>
           <p>
             The{" "}
@@ -63,9 +68,15 @@ const Home = () => {
       </div>
       <hr />
       {/* MESSAGE FROM PRESIDENT */}
+
+      <div className="president-msg-container container">
+        <div className="president-msg">
+          <h2>Message From President</h2>
+
       <div className="row  president-msg-container">
         <div className="col-lg-7  president-msg">
           <h1>Message From President</h1>
+
           <p>
             Warm greetings, myself Anil Dangi, current president at{" "}
             <strong>SOMES</strong>, Hailing from the beautiful region of Jumla,
@@ -90,6 +101,52 @@ const Home = () => {
           />
         </div>
       </div>
+
+
+      {/* <div className="container">
+        <div className="row g-3">
+          <div className="col-12 col-md-6 col-lg-4">
+            <div className="card">
+              <img
+                src="/image/members/President.jpg"
+                alt=""
+                className="card-img-top"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Hello</h5>
+                <p className="card-text">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-6 col-lg-4">
+            <div className="card">
+              <img
+                src="/image/members/President.jpg"
+                alt=""
+                className="card-img-top"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Hello</h5>
+                <p className="card-text">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-6 col-lg-4">
+            <div className="card">
+              <img
+                src="/image/members/President.jpg"
+                alt=""
+                className="card-img-top"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Hello</h5>
+                <p className="card-text">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
+
 
       {/* <Gallery /> */}
     </Layout>

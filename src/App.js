@@ -1,15 +1,16 @@
 import React from "react";
-
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/home/Home";
 import Alumni from "./pages/alumni/Alumini";
 import Committee from "./pages/committee/Committee";
 import Notes from "./pages/notes/Notes";
 import Events from "./pages/events/Events";
+import GoToTop from "./components/topButton/GoToTop";
 
 const App = () => {
   return (
     <>
+      <GoToTop />
       <Router>
         <Routes>
           <Route path="/" element={<Home />}></Route>

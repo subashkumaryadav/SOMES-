@@ -1,5 +1,11 @@
 import React from "react";
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaTwitter,
+  FaInstagram,
+  FaLinkedin,
+  FaEnvelope,
+} from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./Footer.css";
 
@@ -9,7 +15,7 @@ const Footer = () => {
       <h1 className="text-center"> Explore More</h1>
       <div className="social-media my-5">
         <Link
-          to="https://www.facebook.com"
+          to="https://www.facebook.com/somesioepcdharan"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -43,13 +49,17 @@ const Footer = () => {
           <div className="row footer-contacts">
             <div className="col-lg-6 col-sm-6">
               <h4>President</h4>
-              <p>Sangyog Puri</p>
-              <p>Email: san@puri.com</p>
+              <p>Anil Dangi</p>
+              <p>
+                <FaEnvelope /> san@puri.com
+              </p>
             </div>
             <div className="col-lg-6 col-sm-6">
               <h4> Vice President</h4>
               <p>Sangyog Puri</p>
-              <p>Email: san@puri.com</p>
+              <p>
+                <FaEnvelope /> san@puri.com
+              </p>
             </div>
           </div>
         </div>
