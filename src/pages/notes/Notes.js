@@ -23,13 +23,9 @@ const Notes = () => {
                     {data.Subjects.map((sub) => {
                       return (
                         <div
-                          data-mdb-toggle="animation"
-                          data-mdb-animation-show-on-load="false"
-                          data-mdb-animation-start="onScroll"
-                          data-mdb-animation="fade-in"
-                          data-mdb-animation-delay="300"
+                    
                           key={sub.id}
-                          className="card shadow-lg p-3 bg-body mb-5 rounded"
+                          className={`card shadow-lg p-3 bg-body mb-5 fade-in-left ${style.subjects}` }
                           style={{ width: "18rem", height: "11rem" }}
                         >
                           <div className="card-header text-bold ">
