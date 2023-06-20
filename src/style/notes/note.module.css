@@ -1,10 +1,18 @@
-
-.note_head,.note_main {
+*{
+  html{
+    scroll-behavior: smooth
+  }
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+.note_head ,.note_main {
   text-align: center;
   background-image: linear-gradient(to right, #32A071,#BA6790,#BA6790,#32A071);
   color: white;
+  
+
 }
 .note_main {
+  font-family: 'Josefin Sans', sans-serif;
   margin-top: 5px;
 }
 .notes_subj{

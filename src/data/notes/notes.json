@@ -85,15 +85,64 @@
             "youtube": "https://youtu.be/9LNDTi5sxyk"
           },
            {
-            "id": 12,
+            "id": 13,
             "name": "PHYSICS",
             "drive": "https://drive.google.com/drive/folders/16feOV5LS277wOtvKc3PrdPnKpARa2onU?usp=drive_link",
             "youtube": "https://www.youtube.com/watch?v=a_Ip8LpQokw"
           },
            {
-            "id": 12,
+            "id": 14,
             "name": "QUESTION BANK II SEM",
             "drive": "https://drive.google.com/drive/folders/17R8aYm5U_bafKNQejjXHbmDTaVW_dBLt?usp=drive_link",
+            "youtube": "https://www.youtube.com"
+          }
+          
+        ]
+      },
+      {
+        "id": 1003,
+        "sem": "Third Semester",
+        "Subjects": [
+          {
+            "id": 15,
+            "name": "APPLIED THERMODYNAMICS",
+            "drive": "https://drive.google.com/drive/folders/17rb4FLogkze0djI1Pi7s4NVJ777FwQEd?usp=drive_link",
+            "youtube": "https://youtu.be/9LNDTi5sxyk"
+          },
+          {
+            "id": 16,
+            "name": "AUTOCAD",
+            "drive": "https://drive.google.com/drive/folders/183kjG2USDBJZrgl7R5rYedBJwgQpGg3O?usp=drive_link",
+            "youtube": "https://youtu.be/It2jXzsXrVw"
+          },
+          {
+            "id": 17,
+            "name": "ENGINEERING MECHANICS",
+            "drive": "https://drive.google.com/drive/folders/1B8HQHqlElXNOIMW_ZM6oWyHp7bLAS-Gz?usp=drive_link",
+            "youtube": "https://youtu.be/Rzz_4YcdD_s"
+          },
+          {
+            "id": 18,
+            "name": "MATERIAL SCIENCE",
+            "drive": "https://drive.google.com/drive/folders/1AAc0kVfsJW9XuaUie8yepqtQQdZdClmq?usp=drive_link",
+            "youtube": "https://www.youtube.com"
+          },
+          {
+            "id": 19,
+            "name": "MATHMATICS VOLUME-III",
+            "drive": "https://drive.google.com/drive/folders/1AzAGlaFWXOyhKH84KKTDceGrJO4qIuCF?usp=drive_link",
+            "youtube": "https://www.youtube.com"
+          },
+           {
+            "id": 20,
+            "name": "METROLOGY",
+            "drive": "https://drive.google.com/drive/folders/1AW2ygAmfZp--BM3YPN_vIYvSKbWsy5Kw?usp=drive_link",
+            "youtube": "https://www.youtube.com"
+          },
+           {
+            "id": 21,
+            "name": "QUESTION BANK III SEM",
+            "drive": "https://drive.google.com/file/d/1E3uAZjfGaxfBg8iiCe438WdlgYhOGwAu/view?usp=drive_link",
             "youtube": "https://www.youtube.com"
           }
           
