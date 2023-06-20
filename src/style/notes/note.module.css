@@ -19,6 +19,7 @@
   font-size: 1.9rem;
   text-transform: capitalize;
   text-decoration: underline;
+  font-weight: 400;
 }
 .semeter_St{
     display: flex;
