@@ -44,3 +44,9 @@
   .end-content{
     font-family: Georgia, serif;
   }
+  @media screen and (max-width: 450px) {
+    .map{
+      width: 100%;
+      height: 200px;
+    }
+  }

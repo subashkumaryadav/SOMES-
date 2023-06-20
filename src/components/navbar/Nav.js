@@ -11,7 +11,7 @@ const Nav = () => {
             <img
               src="/image/gallery/logo.png"
               alt=""
-              style={{ height: "60px" }}
+              style={{ height: "40px" }}
             />
           </Link>
           <button
@@ -26,7 +26,7 @@ const Nav = () => {
             <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul className="navbar-nav ms-auto mb-2 mx-4 mb-lg-0">
               <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to="/">
                   Home
