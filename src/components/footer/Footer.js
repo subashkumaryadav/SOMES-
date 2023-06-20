@@ -1,10 +1,10 @@
 import React from "react";
 import {
   FaFacebook,
-  FaTwitter,
   FaInstagram,
   FaLinkedin,
   FaEnvelope,
+  FaPhoneAlt,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./Footer.css";
@@ -21,15 +21,9 @@ const Footer = () => {
         >
           <FaFacebook />
         </Link>
+
         <Link
-          to="https://www.twitter.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaTwitter />
-        </Link>
-        <Link
-          to="https://www.instagram.com"
+          to="https://www.instagram.com/aimes.ioe"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -48,17 +42,23 @@ const Footer = () => {
         <div className="col-lg-6 col-sm-6">
           <div className="row footer-contacts">
             <div className="col-lg-6 col-sm-6">
-              <h4>President</h4>
-              <p>Anil Dangi</p>
+              <h2>President</h2>
+              <p>Mr.Anil Dangi</p>
               <p>
-                <FaEnvelope /> san@puri.com
+                <FaEnvelope /> Royalak297@gmail.com
+              </p>
+              <p>
+                <FaPhoneAlt /> 9863450956
               </p>
             </div>
             <div className="col-lg-6 col-sm-6">
-              <h4> Vice President</h4>
-              <p>Sangyog Puri</p>
+              <h2> Vice President</h2>
+              <p>Mr.Suraj Bhusal</p>
               <p>
-                <FaEnvelope /> san@puri.com
+                <FaEnvelope /> bhusalsuraj1009@gmail.com
+              </p>
+              <p>
+                <FaPhoneAlt /> 9746413683
               </p>
             </div>
           </div>
