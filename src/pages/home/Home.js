@@ -36,8 +36,9 @@ const Home = () => {
       </div>
       <hr />
       {/* About us section */}
-      <div className="about-container" id="about">
-        <div className="about-content">
+
+      <div className="row about-container" id="about">
+        <div className="col-lg-7 about-content">
           <h1>About-Us</h1>
           <p>
             The{" "}
@@ -52,7 +53,7 @@ const Home = () => {
             mechanical engineering.
           </p>
         </div>
-        <div className="about-image">
+        <div className="col-lg-4 about-image">
           <img
             src="/image/gallery/campus-image.jpg"
             alt=""
@@ -62,9 +63,9 @@ const Home = () => {
       </div>
       <hr />
       {/* MESSAGE FROM PRESIDENT */}
-      <div className="president-msg-container">
-        <div className="president-msg">
-          <h2>Message From President</h2>
+      <div className="row  president-msg-container">
+        <div className="col-lg-7  president-msg">
+          <h1>Message From President</h1>
           <p>
             Warm greetings, myself Anil Dangi, current president at{" "}
             <strong>SOMES</strong>, Hailing from the beautiful region of Jumla,
@@ -81,14 +82,15 @@ const Home = () => {
             remarkable journey with all of you.
           </p>
         </div>
-        <div className="president-image">
+        <div className="col-lg-4 president-image">
           <img
             src="/image/members/President.jpg"
             alt=""
-            className="img-fluid"
+            className="img-fluid president-img"
           />
         </div>
       </div>
+
       {/* <Gallery /> */}
     </Layout>
   );
