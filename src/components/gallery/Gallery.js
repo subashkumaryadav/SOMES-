@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Gallery = () => {
   return (
@@ -32,7 +33,7 @@ const Gallery = () => {
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval={10000}>
             <img
-              src="/image/gallery/fifa.jpg"
+              src="/image/gallery/vintageJeep.jpg"
               className="d-block w-100 img-fluid"
               alt="..."
               style={{ width: "1140px", height: "450px" }}
@@ -40,7 +41,7 @@ const Gallery = () => {
           </div>
           <div className="carousel-item" data-bs-interval={2000}>
             <img
-              src="/image/gallery/football.jpg"
+              src="/image/gallery/camera.jpg"
               className="d-block w-100"
               alt="..."
               style={{ width: "1140px", height: "450px" }}
@@ -48,7 +49,7 @@ const Gallery = () => {
           </div>
           <div className="carousel-item">
             <img
-              src="/image/gallery/mechcamp.jpg"
+              src="/image/gallery/jeep.jpg"
               className="d-block w-100"
               style={{ width: "1140px", height: "450px" }}
               alt="..."
