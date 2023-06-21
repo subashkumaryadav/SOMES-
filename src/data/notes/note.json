@@ -195,6 +195,102 @@
           }
           
         ]
-  }
+  },
+  "V":{
+    "name":"V Semester",
+    "Subjects": [
+        {
+          "id": 30,
+          "name": "CONTROL SYSTEM",
+          "drive": "https://drive.google.com/drive/folders/1aVD4GHr6Rn8kR8sw1zKDi2kMq_XilVEy?usp=drive_link",
+          "youtube": "https://www.youtube.com"
+        },
+        {
+          "id": 31,
+          "name": "FLUID MACHINES",
+          "drive": "https://drive.google.com/drive/folders/1_LJX9F_gX1JNz-AUkb4-LZZK2Q2h4aDo?usp=drive_link",
+          "youtube": "https://www.youtube.com"
+        },
+        {
+          "id": 32,
+          "name": "HEAT TRANSFER",
+          "drive": "https://drive.google.com/drive/folders/1YfXaAWj_DFFlDt16DYFFcKJXpxlNPhen?usp=drive_link",
+          "youtube": "https://www.youtube.com"
+        },
+        {
+          "id": 33,
+          "name": "MECHANICS OF SOLID",
+          "drive": "https://drive.google.com/drive/folders/1YT-TSe1adoS_twsS0wGXQh8--7K96Qjf?usp=drive_link",
+          "youtube":"https://www.youtube.com"
+        },
+        {
+          "id": 34,
+          "name": "NUMERICAL METHODS",
+          "drive": "https://drive.google.com/drive/folders/1Vy2K14GDqToRxCg-1tIZzVpCDl-mWnbR?usp=drive_link",
+          "youtube":"https://www.youtube.com"
+        },
+         {
+          "id": 35,
+          "name": "ORG AND MANAGEMENT",
+          "drive": "https://drive.google.com/drive/folders/1WdkEYnfYuJZPh3c_KQ-KWlAAch6Of3g3?usp=drive_link",
+          "youtube": "https://www.youtube.com"
+        },
+         {
+          "id": 36,
+          "name": "QUESTION BANK",
+          "drive": "https://drive.google.com/file/d/1adwjmLD2cwWGW_i107g5rqAXaWaKGNce/view?usp=drive_link",
+          "youtube":"https://www.youtube.com"
+        }
+        
+      ]
+},    
+"VI":{
+  "name":"VI Semester",
+  "Subjects": [
+      {
+        "id": 37,
+        "name": "COMMUNICATION ENGLISH",
+        "drive": "https://drive.google.com/drive/folders/1ocIp4nOtxZ_t3d3BaUZ1ekohkeazR9vu?usp=drive_link",
+        "youtube": "https://www.youtube.com"
+      },
+      {
+        "id": 38,
+        "name": "ENERGY RESOURCES",
+        "drive": "https://drive.google.com/drive/folders/1p3YSzxORmqMWLKjwLxfAqYcfAJ9bRFgm?usp=drive_link",
+        "youtube": "https://www.youtube.com"
+      },
+      {
+        "id": 39,
+        "name": "INDUSTRIAL ENGINEERING",
+        "drive": "https://drive.google.com/drive/folders/1rSVed-BSJ8AO20ZhBOFKgCfwMngmm_lS?usp=drive_link",
+        "youtube": "https://www.youtube.com"
+      },
+      {
+        "id": 40,
+        "name": "INTERNAL COMBUSTION ENGINE",
+        "drive": "https://drive.google.com/drive/folders/1trypcUjAFl1ViGRRCzTeVvRiY1lzXHS5?usp=drive_link",
+        "youtube":"https://www.youtube.com"
+      },
+      {
+        "id": 41,
+        "name": "MACHINE DESIGN",
+        "drive": "https://drive.google.com/drive/folders/1yc2wzUHVbnaeCSDDm-PuzXsDHyJxnDrj?usp=drive_link",
+        "youtube":"https://www.youtube.com"
+      },
+       {
+        "id": 42,
+        "name": "TOM",
+        "drive": "https://drive.google.com/drive/folders/1VKhqP4CD5tj6HlVI7GcyDaPPm85hy-9f?usp=drive_link",
+        "youtube": "https://www.youtube.com"
+      },
+       {
+        "id": 43,
+        "name": "QUESTION BANK",
+        "drive": "https://drive.google.com/drive/folders/15OGvn0Jm7GiuySV5cK9SY18j2CPWz88y?usp=drive_link",
+        "youtube":"https://www.youtube.com"
+      }
+      
+    ]
+}
   }
 }
