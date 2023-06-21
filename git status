@@ -1,0 +1,294 @@
+[33mcommit cd80f1b90f82659a77c06f6630326bb6078d3726[m[33m ([m[1;36mHEAD -> [m[1;32msangyog[m[33m, [m[1;31morigin/sangyog[m[33m)[m
+Merge: 4c5cff7 e030fc0
+Author: Sangyog10 <116428979+Sangyog10@users.noreply.github.com>
+Date:   Wed Jun 21 00:30:04 2023 +0545
+
+     conflict solved
+
+[33mcommit 4c5cff7a8e82a8619c41a90ae1e614f41008049a[m[33m ([m[1;32mmain[m[33m)[m
+Author: Sangyog10 <116428979+Sangyog10@users.noreply.github.com>
+Date:   Wed Jun 21 00:13:09 2023 +0545
+
+    Added alumini section:
+
+[33mcommit e030fc0275460355bc12ea52f14e3e2bbda56a4e[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 405f3f5 ae3ae81
+Author: Sangyog <116428979+Sangyog10@users.noreply.github.com>
+Date:   Tue Jun 20 23:23:33 2023 +0545
+
+    Merge pull request #13 from Sangyog10/yam
+    
+    Slider Added
+
+[33mcommit ae3ae8133adab5fdf4c7e71d8f6537e88783b92e[m[33m ([m[1;31morigin/yam[m[33m)[m
+Author: yamHainHum552 <119947952+yamHainHum552@users.noreply.github.com>
+Date:   Tue Jun 20 23:09:28 2023 +0545
+
+    Slider Added
+
+[33mcommit 405f3f5d72f8caa8d61b5d15a73ad780bad21545[m
+Merge: c0a5717 555c4bd
+Author: Sangyog <116428979+Sangyog10@users.noreply.github.com>
+Date:   Tue Jun 20 22:15:38 2023 +0545
+
+    Merge pull request #12 from Sangyog10/yam
+    
+    Added photos and updated footer
+
+[33mcommit 555c4bdc258deb34cbc246e3013ec25237676e69[m
+Author: yamHainHum552 <119947952+yamHainHum552@users.noreply.github.com>
+Date:   Tue Jun 20 22:05:04 2023 +0545
+
+    Added photos and updated footer
+
+[33mcommit c0a57176bded968b86d909c14aeea5fe2b562312[m
+Merge: f210674 3679454
+Author: Subash Kumar Yadav <47708841+subash-0@users.noreply.github.com>
+Date:   Tue Jun 20 18:08:30 2023 +0545
+
+    Merge pull request #10 from Sangyog10/yam
+    
+    Go to top added
+
+[33mcommit 36794543c36dd761aa19ff785d1d7cbee4484bbc[m
+Merge: a242741 f210674
+Author: Subash Kumar Yadav <47708841+subash-0@users.noreply.github.com>
+Date:   Tue Jun 20 18:06:55 2023 +0545
+
+    Merge branch 'main' into yam
+
+[33mcommit f2106741d3c957f9d40540fb2e1a6cc7a5c4eb64[m
+Merge: e719847 d3986bf
+Author: yamHainHum552 <119947952+yamHainHum552@users.noreply.github.com>
+Date:   Tue Jun 20 18:04:05 2023 +0545
+
+    Merge pull request #11 from Sangyog10/subash
+    
+    Subash
+
+[33mcommit a2427410bcd38b6985f65c190c45c180160c6227[m
+Author: yamHainHum552 <119947952+yamHainHum552@users.noreply.github.com>
+Date:   Tue Jun 20 17:58:27 2023 +0545
+
+    Go to top added
+
+[33mcommit d3986bf5294d868c79605d7c278a94d6ee0381de[m[33m ([m[1;31morigin/subash[m[33m)[m
+Author: subash-0 <subash67335@gmail.com>
+Date:   Tue Jun 20 17:50:27 2023 +0545
+
+    subash-v
+
+[33mcommit 4ce7d6f63a1d61f564b9aee2f573d5abdb63e37b[m
+Author: subash-0 <subash67335@gmail.com>
+Date:   Tue Jun 20 17:44:00 2023 +0545
+
+    subash
+
+[33mcommit 48380b75205dee40dd0f38e2da10920efe8db855[m
+Merge: 8eaf684 e719847
+Author: subash-0 <subash67335@gmail.com>
+Date:   Tue Jun 20 17:29:25 2023 +0545
+
+    Merge branch 'main' into subash
+
+[33mcommit e71984791b266a072efa1e4367f69af5a81ef678[m
+Author: Sangyog10 <116428979+Sangyog10@users.noreply.github.com>
+Date:   Tue Jun 20 17:19:15 2023 +0545
+
+    refactored the home page
+
+[33mcommit 8eaf684c91ae3013b41b5d610d5527f8cbaa5373[m
+Author: subash-0 <subash67335@gmail.com>
+Date:   Tue Jun 20 16:55:50 2023 +0545
+
+    Merge branch 'main' of https://github.com/Sangyog10/SOMES-
+
+[33mcommit 60e2cf0e7e01d570f62017d5c3ab2a3278e865c6[m
+Author: subash-0 <subash67335@gmail.com>
+Date:   Tue Jun 20 16:23:50 2023 +0545
+
+    subash-iv
+
+[33mcommit de9dcf3a5e24611a63519b12e411a95ad5ed7940[m
+Merge: 467f0e3 0c14d91
+Author: Sangyog <116428979+Sangyog10@users.noreply.github.com>
+Date:   Tue Jun 20 10:44:51 2023 +0545
+
+    Merge pull request #8 from Sangyog10/yam
+    
+    Conflict Solved
+
+[33mcommit 0c14d916b7d355e02021d0dbf76707ec0322574e[m
+Author: yamHainHum552 <119947952+yamHainHum552@users.noreply.github.com>
+Date:   Tue Jun 20 10:40:25 2023 +0545
+
+    Conflict Solved
+
+[33mcommit 5022891b8a51c1b57c8f9866b43007ec7eb0453d[m
+Author: subash-0 <subash67335@gmail.com>
+Date:   Tue Jun 20 08:55:53 2023 +0545
+
+    wo-animation
+
+[33mcommit df6fa85d7692c88dd305615d8d367e598ae3a890[m
+Author: subash-0 <subash67335@gmail.com>
+Date:   Tue Jun 20 08:55:18 2023 +0545
+
+    notewo-animation
+
+[33mcommit 63991aaf39cad3e283e7986d0c260643c800e880[m
+Author: subash-0 <subash67335@gmail.com>
+Date:   Tue Jun 20 08:19:13 2023 +0545
+
+    subash
+
+[33mcommit 99c885cf85cf2033628ce90741cc7c3eee6c06a1[m
+Author: subash-0 <subash67335@gmail.com>
+Date:   Tue Jun 20 08:18:33 2023 +0545
+
+    subash
+
+[33mcommit 94a88eca0ebec842a851e4cc51b2410e37219238[m
+Author: subash-0 <subash67335@gmail.com>
+Date:   Tue Jun 20 08:18:17 2023 +0545
+
+    subash-iii
+
+[33mcommit fce96b420f7886528b015998ad698f0d32d32a61[m
+Author: subash-0 <subash67335@gmail.com>
+Date:   Tue Jun 20 02:01:05 2023 +0545
+
+    subash-II
+
+[33mcommit c08b2150dc5bce876764f414c229c8de063d5c14[m
+Author: subash-0 <subash67335@gmail.com>
+Date:   Tue Jun 20 01:09:43 2023 +0545
+
+    subash
+
+[33mcommit 467f0e33130164afdf06cb1e85e27743d0dafbfe[m
+Merge: 9c0ab6f 2c863cb
+Author: yamHainHum552 <119947952+yamHainHum552@users.noreply.github.com>
+Date:   Mon Jun 19 22:23:52 2023 +0545
+
+    Merge pull request #7 from Sangyog10/yam
+    
+    Yam
+
+[33mcommit 2c863cb812416fa300e207987cc605afe48bcca8[m
+Author: Sangyog10 <116428979+Sangyog10@users.noreply.github.com>
+Date:   Mon Jun 19 22:13:16 2023 +0545
+
+    done
+
+[33mcommit a58a6768f7a60f40eed73618e203db0346b45ca6[m
+Author: Sangyog10 <116428979+Sangyog10@users.noreply.github.com>
+Date:   Mon Jun 19 22:12:36 2023 +0545
+
+    conflict
+
+[33mcommit 2a09de12aaaee855c2fd29e64de692d9b771d043[m
+Merge: 032cabf 852eefe
+Author: Sangyog10 <116428979+Sangyog10@users.noreply.github.com>
+Date:   Mon Jun 19 22:05:25 2023 +0545
+
+    Merge branch 'yam' of https://github.com/Sangyog10/SOMES- into yam
+
+[33mcommit 852eefec181ec756cbca5f07487fd5ee5b10eea5[m
+Author: yamHainHum552 <119947952+yamHainHum552@users.noreply.github.com>
+Date:   Mon Jun 19 21:36:17 2023 +0545
+
+    Added the president message and dynamic title
+
+[33mcommit 9c0ab6ff6ef7b613c09e049b8492d2ebd63c2db1[m
+Merge: 124061e 032cabf
+Author: yamHainHum552 <119947952+yamHainHum552@users.noreply.github.com>
+Date:   Mon Jun 19 21:31:32 2023 +0545
+
+    Merge pull request #5 from Sangyog10/sangyog
+    
+    footer added
+
+[33mcommit 032cabf9380c4cfab9bccd1733568429a941b111[m
+Author: Sangyog10 <116428979+Sangyog10@users.noreply.github.com>
+Date:   Mon Jun 19 21:27:59 2023 +0545
+
+    footer added
+
+[33mcommit 124061e5f6390c32fb5bb4595c8a2938a7f1a3b5[m
+Merge: b476eb7 8b97574
+Author: Sangyog <116428979+Sangyog10@users.noreply.github.com>
+Date:   Mon Jun 19 18:17:56 2023 +0545
+
+    Merge pull request #4 from Sangyog10/yam
+    
+    Updated the home section
+
+[33mcommit 8b9757478c77d65d8234537d9eb4e6cb6cc2118a[m
+Author: yamHainHum552 <119947952+yamHainHum552@users.noreply.github.com>
+Date:   Mon Jun 19 18:08:13 2023 +0545
+
+    Updated the home section
+
+[33mcommit b476eb7aa076eb1def7232d0fa8b9325dbb995e5[m
+Merge: 9e3fa19 81c0a99
+Author: Sangyog <116428979+Sangyog10@users.noreply.github.com>
+Date:   Sun Jun 18 17:58:33 2023 +0545
+
+    Merge pull request #3 from Sangyog10/yam
+    
+    Added the basic structure and routing
+
+[33mcommit 81c0a9928d7f4372e09ec27f1a9593d7da816c2d[m
+Author: yamHainHum552 <119947952+yamHainHum552@users.noreply.github.com>
+Date:   Sun Jun 18 07:45:24 2023 +0545
+
+    Added the basic structure and routing
+
+[33mcommit 9e3fa19d9f7bf8f4ec6f11216dc0351d51dfbfc4[m
+Merge: 581e83a a361a6b
+Author: Sangyog <116428979+Sangyog10@users.noreply.github.com>
+Date:   Sat Jun 17 23:07:00 2023 +0545
+
+    Merge pull request #2 from Sangyog10/yam
+    
+    Data files added
+
+[33mcommit a361a6b3ee291cc438aa6f7fb275d213adf804d3[m
+Author: yamHainHum552 <119947952+yamHainHum552@users.noreply.github.com>
+Date:   Sat Jun 17 23:05:10 2023 +0545
+
+    Data files added
+
+[33mcommit 581e83ab0016fbb3d73c638041c9891111d2218c[m
+Merge: 8816734 2206edf
+Author: yamHainHum552 <119947952+yamHainHum552@users.noreply.github.com>
+Date:   Sat Jun 17 22:26:02 2023 +0545
+
+    Merge pull request #1 from Sangyog10/sangyog
+    
+    added empty folder
+
+[33mcommit 2206edfa6399d3b1cb64a643180ea257b4f1af63[m
+Author: Sangyog10 <116428979+Sangyog10@users.noreply.github.com>
+Date:   Sat Jun 17 22:20:31 2023 +0545
+
+    added empty folder
+
+[33mcommit 88167345ae2886727b927d3ae1cccd50436c2720[m
+Author: Sangyog10 <116428979+Sangyog10@users.noreply.github.com>
+Date:   Sat Jun 17 22:16:27 2023 +0545
+
+    added empty folder
+
+[33mcommit 5e5f3910c742cc408a637ffefc8d0bd4ca142520[m
+Author: Sangyog10 <116428979+Sangyog10@users.noreply.github.com>
+Date:   Sat Jun 17 22:07:10 2023 +0545
+
+    first commit
+
+[33mcommit 0d9c14fe111aa0299f7e2bc1146bea0cb0e28bce[m
+Author: Sangyog <116428979+Sangyog10@users.noreply.github.com>
+Date:   Sat Jun 17 21:30:04 2023 +0545
+
+    Initial commit
