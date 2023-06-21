@@ -7,7 +7,7 @@ const Alumni = () => {
   const openLink = (event) => {
     event.preventDefault();
     const url =
-      "https://docs.google.com/spreadsheets/d/12VJo5pUWsc20uNZbh9-rXeUOLiJ6h2PfUOFw23FY6TE/edit?resourcekey#gid=1920454552";
+      "https://docs.google.com/spreadsheets/d/1Z-XhVwVJhmBS59JZf48vlpo75KVpERUT2OlbXQmbI80/edit?resourcekey#gid=1298547366";
     window.open(url, "_blank");
   };
 
