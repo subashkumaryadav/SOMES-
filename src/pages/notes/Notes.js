@@ -1,12 +1,21 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { CiBookmarkCheck } from "react-icons/ci";
 import { FcStart, FcDownload } from "react-icons/fc";
 import Layout from "../../components/layout/Layout";
 import style from "../../style/notes/note.module.css";
-import notes from "../../data/notes/notes.json";
+import notes from "../../data/notes/note.json";
 import { Link } from "react-router-dom";
 
 const Notes = () => {
+  const [sem, setsem] = useState("I");
+  
+    const data = notes["year"];
+    const note_data = data[`${sem}`];
+      useEffect(()=>{
+       
+      },[])
+ 
+
   return (
     <Layout>
       <div className={style.note_head}>
@@ -15,63 +24,55 @@ const Notes = () => {
           className={`form-select form-select-sm`}
           aria-label=".form-select-sm example"
           id="semValue"
+          onChange={(e) => {
+            setsem(e.target.value);
+          }}
         >
-          <option value="1001">Select Semester</option>
-          <option value="1001">I Sem</option>
-          <option value="1002">II Sem</option>
-          <option value="1003">III Sem</option>
-          <option value="1004">IV Sem</option>
-          <option value="1005">V Sem</option>
-          <option value="1006">VI Sem</option>
-          <option value="1007">VII Sem</option>
-          <option value="1008">VIII Sem</option>
-         </select>
+          <option value="I">Select Semester</option>
+          <option value="I">I Sem</option>
+          <option value="II">II Sem</option>
+          <option value="III">III Sem</option>
+          <option value="IV">IV Sem</option>
+          <option value="V">V Sem</option>
+          <option value="VI">VI Sem</option>
+          <option value="VII">VII Sem</option>
+          <option value="VIII">VIII Sem</option>
+        </select>
       </div>
-     
-      {notes.map((current) => {
-        const note = current.year;
-       
-        return (
-          <div className={style.semeter_St} key={current.id}>
-            { 
 
-              note.map((data) => {
-              return (
-                <div className={style.note_main} key={data.id}>
-                  <h3>{data.sem}</h3>
+      <div className={style.semeter_St}>
+        <div className={style.note_main}>
+          <h3>{note_data.name}</h3>
 
-                  <div className={style.notes_subj}>
-                    {data.Subjects.map((sub) => {
-                      return (
-                        <div
-                          key={sub.id}
-                          className={`card shadow-lg p-3 bg-body mb-5 fade-in-left ${style.subjects}`}
-                          style={{ width: "18rem", height: "11rem" }}
-                        >
-                          <div className="card-header text-bold ">
-                            <CiBookmarkCheck /> {sub.name}
-                          </div>
-                          <div className="card-body">
-                            <h5 className="card-title"> Follow Links </h5>
-                            <div className="d-flex text-white bg-body my-3 justify-content-around ">
-                              <Link to={sub.youtube} target="_blank">
-                                <FcStart />
-                              </Link>
-                              <Link to={sub.drive} target="_blank">
-                                <FcDownload />
-                              </Link>
-                            </div>
-                          </div>
-                        </div>
-                      );
-                    })}
-                  </div>
+          <div className={style.notes_subj}>
+            {note_data.Subjects.map((sub) => {
+            return <div
+                key={sub.id}
+              className={`card shadow-lg p-3 bg-body mb-5 fade-in-left ${style.subjects}`}
+              style={{ width: "18rem", height: "11rem" }}
+            >
+              <div className="card-header text-bold ">
+                <CiBookmarkCheck />
+                {sub.name}
+              </div>
+              <div className="card-body">
+                <h5 className="card-title"> Follow Links </h5>
+                <div className="d-flex text-white bg-body my-3 justify-content-around ">
+               
+                  <Link to={sub.youtube} target="_blank">
+                    <FcStart />
+                  </Link>
+                  
+                  <Link to={sub.drive} target="_blank">
+                    <FcDownload />
+                  </Link>
                 </div>
-              );
+              </div>
+            </div>
             })}
           </div>
-        );
-      })}
+        </div>
+      </div>
     </Layout>
   );
 };
