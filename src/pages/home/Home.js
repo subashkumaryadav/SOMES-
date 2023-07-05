@@ -11,7 +11,7 @@ const Home = () => {
           <h1>
             Mech <span>Makes</span> My <span>Mind</span>
           </h1>
-          <p>And My Mind Makes Machine</p>
+          <p>And My Mind Makes Machine!!!</p>
           <button>
             <Link
               to="about"
@@ -135,8 +135,12 @@ const Home = () => {
           </div>
         </div>
       </div> */}
-
+      <hr />
+      <h1 className="d-flex justify-content-center crousel-content">
+        Some Glimpses Of Mech-Camp
+      </h1>
       <Gallery />
+      <hr />
     </Layout>
   );
 };

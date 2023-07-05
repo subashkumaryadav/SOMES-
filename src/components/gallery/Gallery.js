@@ -1,6 +1,6 @@
 import React from "react";
+import "./styles.css";
 import { Link } from "react-router-dom";
-
 const Gallery = () => {
   return (
     <>
@@ -56,13 +56,18 @@ const Gallery = () => {
             />
           </div>
         </div>
+        <div className="carousel-middle">
+          <Link to="/events" className="btn btn-primary">
+            Watch More
+          </Link>
+        </div>
         <button
           className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleDark"
           data-bs-slide="prev"
         >
-          <span className="carousel-control-prev-icon" aria-hidden="true" />
+          <span className="carousel-control-prev-icon " aria-hidden="true" />
           <span className="visually-hidden">Previous</span>
         </button>
         <button
@@ -71,7 +76,7 @@ const Gallery = () => {
           data-bs-target="#carouselExampleDark"
           data-bs-slide="next"
         >
-          <span className="carousel-control-next-icon" aria-hidden="true" />
+          <span className="carousel-control-next-icon " aria-hidden="true" />
           <span className="visually-hidden">Next</span>
         </button>
       </div>

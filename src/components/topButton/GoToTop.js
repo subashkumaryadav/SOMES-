@@ -6,7 +6,7 @@ const GoToTop = () => {
   const [goToTop, setGoToTop] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 100) {
+      if (window.scrollY > 200) {
         setGoToTop(true);
       } else {
         setGoToTop(false);
