@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <footer className="footer ">
       <h1 className="text-center"> Explore More</h1>
-      <div className="social-media my-5">
+      <div className="social-media my-2">
         <Link
           to="https://www.facebook.com/somesioepcdharan"
           target="_blank"
@@ -37,16 +37,14 @@ const Footer = () => {
           <FaLinkedin />
         </Link>
       </div>
-      <div className="row my-5 mx-5">
+      <div className="row justify-content-between my-4 mx-5">
         {/* this col is for contacts */}
-        <div className="col-lg-6 col-sm-6">
-          <div className="row footer-contacts">
+        <div className="col-lg-3 col-sm-6">
+          <div className="row footer-contacts my-2">
             <div className="col-lg-6 col-sm-6">
               <h2>President</h2>
               <p>Mr.Anil Dangi</p>
-              <p>
-                <FaEnvelope /> Royalak297@gmail.com
-              </p>
+              <p>Royalak297@gmail.com</p>
               <p>
                 <FaPhoneAlt />
                 +977 9863450956
@@ -55,9 +53,7 @@ const Footer = () => {
             <div className="col-lg-6 col-sm-6">
               <h2> Vice President</h2>
               <p>Mr.Suraj Bhusal</p>
-              <p>
-                <FaEnvelope /> bhusalsuraj1009@gmail.com
-              </p>
+              <p>bhusalsuraj1009@gmail.com</p>
               <p>
                 <FaPhoneAlt />
                 +977 9746413683
@@ -66,7 +62,7 @@ const Footer = () => {
           </div>
         </div>
         {/* this col is for map */}
-        <div className="col-lg-6 col-sm-6 my-4 div_map">
+        <div className="col-lg-3 col-sm-6 my-4 div_map">
           {
             <iframe
               title="myfooterunique"
@@ -79,6 +75,46 @@ const Footer = () => {
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           }
+        </div>
+        <div className="col-lg-3 col-sm-8 q-link my-2">
+          <h2>Quick Links</h2>
+          <div className="quick-links">
+            <Link
+              to="/"
+              className="white-link"
+              style={{ textDecoration: "none" }}
+            >
+              Home
+            </Link>
+            <Link
+              to="/committee"
+              className="white-link"
+              style={{ textDecoration: "none" }}
+            >
+              Committee
+            </Link>
+            <Link
+              to="/notes"
+              className="white-link"
+              style={{ textDecoration: "none" }}
+            >
+              Notes
+            </Link>
+            <Link
+              to="/events"
+              className="white-link"
+              style={{ textDecoration: "none" }}
+            >
+              Events
+            </Link>
+            <Link
+              to="/alumini"
+              className="white-link"
+              style={{ textDecoration: "none" }}
+            >
+              Alumini
+            </Link>
+          </div>
         </div>
       </div>
       <h2 className="text-center end-content">
