@@ -14,7 +14,7 @@ const Notes = () => {
   const note_data = data[`${sem}`];
   useEffect(() => {
     const notify = () =>
-      toast("4rth year notes are not available right now!", {
+      toast("You can download All notes in pdf format.", {
         toastId: "success1",
         position: "top-center",
         autoClose: 3000,
@@ -48,12 +48,8 @@ const Notes = () => {
           <option value="IV">IV Sem</option>
           <option value="V">V Sem</option>
           <option value="VI">VI Sem</option>
-          <option value="VII" disabled>
-            VII Sem
-          </option>
-          <option value="VII" disabled>
-            VIII Sem
-          </option>
+          <option value="VII">VII Sem</option>
+          <option value="VIII">VIII Sem</option>
         </select>
       </div>
 
