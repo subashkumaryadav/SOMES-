@@ -6,6 +6,7 @@
 li {
   font-weight: bold;
 }
+
 .nav-link {
   transition: opacity 0.3s ease;
 }
@@ -13,6 +14,7 @@ li {
 .active-link {
   opacity: 1;
 }
+
 @media screen and (max-width: 1024px) {
   .navbar-nav {
     display: flex;
