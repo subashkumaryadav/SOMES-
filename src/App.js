@@ -7,6 +7,7 @@ import Notes from "./pages/notes/Notes";
 // import Events from "./pages/events/Events";
 import GoToTop from "./components/topButton/GoToTop";
 import ScrollToTop from "./components/scrollToTop/ScrollToTop";
+import Gal from "./pages/gallery/Gal";
 const LazyEvents = React.lazy(() => import("./pages/events/Events.js"));
 
 const App = () => {
@@ -27,6 +28,7 @@ const App = () => {
               </React.Suspense>
             }
           ></Route>
+          <Route path="/gallery" element={<Gal />}></Route>
         </Routes>
       </Router>
       <GoToTop />

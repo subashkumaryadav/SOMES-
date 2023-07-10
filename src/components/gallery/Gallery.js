@@ -57,7 +57,7 @@ const Gallery = () => {
           </div>
         </div>
         <div className="carousel-middle">
-          <Link to="/events" className="btn btn-primary">
+          <Link to="/gallery" className="btn btn-primary">
             Watch More
           </Link>
         </div>
