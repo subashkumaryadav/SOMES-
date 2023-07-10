@@ -3,7 +3,6 @@ import {
   FaFacebook,
   FaInstagram,
   FaLinkedin,
-  FaEnvelope,
   FaPhoneAlt,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -108,11 +107,11 @@ const Footer = () => {
               Events
             </Link>
             <Link
-              to="/alumini"
+              to="/alumni"
               className="white-link"
               style={{ textDecoration: "none" }}
             >
-              Alumini
+              Alumni
             </Link>
           </div>
         </div>
