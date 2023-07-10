@@ -72,6 +72,15 @@ const Nav = () => {
                 <NavLink
                   className="nav-link"
                   activeClassName="active-link"
+                  to="/gallery"
+                >
+                  Gallery
+                </NavLink>
+              </li>
+              <li className="nav-item mx-3">
+                <NavLink
+                  className="nav-link"
+                  activeClassName="active-link"
                   to="/alumni"
                 >
                   Alumni
