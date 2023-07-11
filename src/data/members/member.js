@@ -1,19 +1,21 @@
-{
-    "members": [
-      {
-        "id": 1001,
-        "name": "Anil Dangi",
-        "position": "President",
-        "image": "ANIL.jpg",
-        "facebook": "profile.php?id=100067051394183",
-        "email": "Rolayak297@gmail.com",
-        "phone": "9863450956"
-      },
+import BABITA from "../assets/members/BABITA.jpg";
+import BONUS from "../assets/members/BONUS.jpg";
+import BINITA from "../assets/members/BINITA.jpg";
+import MAHENDRA from "../assets/members/MAHENDRA.jpg";
+import MANJITA from "../assets/members/MANJITA.jpg";
+import NARAYAN from "../assets/members/NARAYAN.jpg";
+import PRAKASH from "../assets/members/PRAKASH.jpg";
+import SAGAR from "../assets/members/SAGAR.jpg";
+import YUKESH from "../assets/members/YUKESH.jpg";
+
+
+ const members = [
+
       {
         "id": 1002,
-        "nam": "Suraj Bhusal",
+        "name": "Suraj Bhusal",
         "position": "Vice President",
-        "image": "SURAJ.jpg",
+        "image": "",
         "facebook": "suraj.bhusal.9083477",
         "email": "bhusalsuraj1009@gmail.com",
         "phone": "9746413683"
@@ -22,7 +24,7 @@
         "id": 1003,
         "name": "Bonus Pradhan",
         "position": "Treasurer",
-        "image": "BONUS.jpg",
+        "image": BONUS,
         "facebook": "",
         "email": "jpta457@gmail.com",
         "phone": "9819353950"
@@ -31,7 +33,7 @@
         "id": 1004,
         "name": "Narayan Shrestha",
         "position": "Secretary",
-        "image": "NARAYAN.jpg",
+        "image": NARAYAN,
         "facebook": "profile.php?id=100029605097084",
         "email": "naaraayaanshrestha157@gmail.com",
         "phone": "9860446007"
@@ -40,16 +42,16 @@
         "id": 1005,
         "name": "Dikshina Bhatarai",
         "position": "Vice secretary",
-        "image": "DIKSHINA.jpg",
+        "image": "",
         "facebook": "rojina.poudel.7528",
         "email": "dikshinabhattarai@gmail.com",
         "phone": "9804985488"
       },
       {
         "id": 1006,
-        "nam": "Sagar Khanal",
+        "name": "Sagar Khanal",
         "position": "Logistic Manager",
-        "image": "SAGAR.jpg",
+        "image": SAGAR,
         "facebook": "profile.php?id=100083647334308",
         "email": "khanalsagar236@gmail.com",
         "phone": "9847992321"
@@ -58,7 +60,7 @@
         "id": 1007,
         "name": "Prakash Dev",
         "position": "Technical Manager",
-        "image": "PRAKASH.jpg",
+        "image": PRAKASH,
         "facebook": "prakashdev898",
         "email": "prakashdev898@gmail.com",
         "phone": ""
@@ -67,7 +69,7 @@
         "id": 1008,
         "name": "Binita Tamang",
         "position": "Event Manager",
-        "image": "BINITA.jpg",
+        "image":BINITA,
         "facebook": "profile.php?id=100038749573799",
         "email": "tbinita265@gmail.com",
         "phone": ""
@@ -76,7 +78,7 @@
         "id": 1009,
         "name": "Deepan Ghimire",
         "position": "Ass. Event Manager",
-        "image": "DEEPAN.jpg",
+        "image": "",
         "facebook": "dipan.ghimire.1",
         "email": "dpnghimire@gmail.com",
         "phone": "9816948904"
@@ -85,16 +87,16 @@
         "id": 1010,
         "name": "Babita Khatiwada",
         "position": "PR Manager",
-        "image": "BABITA.jpg",
+        "image": BABITA,
         "facebook": "babita.khatiwada.777",
         "email": "",
         "phone": ""
       },
       {
         "id": 1011,
-        "nam": "Saksham Katwal",
+        "name": "Saksham Katwal",
         "position": "Assistant PR",
-        "image": "SAKSHAM.jpg",
+        "image": "",
         "facebook": "saksham.katwal.58",
         "email": "katwalsakhsam18@gmail.com",
         "phone": "9826995600"
@@ -103,7 +105,7 @@
         "id": 1012,
         "name": "Mahendra Sunar",
         "position": "Executive Member",
-        "image": "MAHENDRA.jpg",
+        "image": MAHENDRA,
         "facebook": "profile.php?id=100092447470519",
         "email": "sunarmahendra419@gmail.com",
         "phone": "9865447591"
@@ -112,7 +114,7 @@
         "id": 1013,
         "name": "Manjita Koirala",
         "position": "Executive Member",
-        "image": "MANJITA.jpg",
+        "image": MANJITA,
         "facebook": "manjita.koirala.52",
         "email": "koiralamanjita1@gmail.com",
         "phone": ""
@@ -121,16 +123,16 @@
         "id": 1014,
         "name": "Pratik Pradhan",
         "position": "Executive Member",
-        "image": "PRATIK.jpg",
+        "image": "",
         "facebook": "profile.php?id=100024495501858",
         "email": "pratikpardhan196@gmail.com",
         "phone": "9806032104"
       },
       {
         "id": 1015,
-        "nam": "Yukesh Poudel",
+        "name": "Yukesh Poudel",
         "position": "Executive Member",
-        "image": "YUKESH.jpg",
+        "image": YUKESH,
         "facebook": "yukesh.poudel.1",
         "email": "yukeshpoudel963@gmail.com",
         "phone": "9769813413"
@@ -138,4 +140,4 @@
 
      
     ]
-}
+export default members;

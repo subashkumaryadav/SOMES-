@@ -1,58 +1,49 @@
 import React from "react";
 import Layout from "../../components/layout/Layout";
-import { Link } from "react-router-dom";
 import { FaFacebook, FaPhone,FaVoicemail } from "react-icons/fa";
 import './committee.css';
+import datas from "../../data/members/member.js";
+import president from "../../data/assets/members/ANIL.jpg";
+import { Link } from "react-router-dom";
 const Committee = () => {
   return <Layout title={"Committee-SOMES"}>
-     <div id='model3'>
-        <h1 className='model-title'>Team Model 3</h1>
+     <div id='committe'>
+        <h1 className='model-title'> Current Working Committee </h1>
         <div className="divider"></div>
         <div className="members">
+          <div className="president">
           <div className="member">
-            <img width={200} height={200} src=""/>
+            <img width={150} height={150} src={president} alt="Image loading.."/>
             <div className="description">
-                <h1>Ahmed ALAMI</h1>
-                <h2>CEO</h2>
-                <p>
-                Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet consectet.
-                </p>
+                <h1>Anil Dangi</h1>
+                <h2>President</h2>
                 <div className="social-media">
-                  <FaFacebook />
-                  <FaPhone />
-                  <FaVoicemail />
+                <Link to={`http://www.facebook.com/profile.php?id=100067051394183`} target="_blank" > <FaFacebook /></Link> 
+                 <Link to={`tel:9863450956`} target="_blank" ><FaPhone /></Link> 
+                 <Link to={`mailto:Rolayak297@gmail.com`} target="_blank" > <FaVoicemail /> </Link>
                 </div>
             </div>
           </div>
-          <div className="member">
-            <img width={200} height={200} src={"Member2"}/>
+          </div>
+          <div className="gmember">
+            {datas.map((member)=>{
+
+           
+          return <div className="member" key={member.id}>
+            <img width={200} height={200} src={member.image} alt="Image Loading" />
             <div className="description">
-                <h1>Omar Nadir</h1>
-                <h2>CEO</h2>
-                <p>
-                Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet consectet.
-                </p>
+                <h1>{member.name}</h1>
+                <h2>{member.position}</h2>
                 <div className="social-media">
-                  <FaFacebook />
-                  <FaPhone />
-                  <FaVoicemail />
+                <Link to={`http://www.facebook.com/${member.facebook}`} target="_blank" > <FaFacebook /></Link> 
+                 <Link to={`tel:${member.phone}`} target="_blank" ><FaPhone /></Link> 
+                 <Link to={`mailto:${member.email}`} target="_blank" > <FaVoicemail /> </Link>
+                
                 </div>
             </div>
           </div>
-          <div className="member">
-            <img width={200} height={200} src={"Member3"}/>
-            <div className="description">
-                <h1>Khaled MAHER</h1>
-                <h2>CEO</h2>
-                <p>
-                Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet consectet.
-                </p>
-                <div className="social-media">
-                  <FaFacebook />
-                  <FaPhone />
-                  <FaVoicemail />
-                </div>
-            </div>
+           })}
+        
           </div>
         </div>
     </div>
