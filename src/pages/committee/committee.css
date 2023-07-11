@@ -22,10 +22,12 @@
 .somes_committe h1,h2,h3{
     margin: 0;
     padding: 0;
+    text-shadow: 2px -3px 3px rgba(0, 0, 0, 0.297);
+    font-family: 'Poppins', sans-serif;
 }
 #committe h1{
     margin: 20px 0;
-    text-align: center;
+    
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
     text-shadow: 2px -3px 3px rgba(0, 0, 0, 0.297);
