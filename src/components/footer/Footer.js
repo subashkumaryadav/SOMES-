@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaLinkedin,
-  FaPhoneAlt,
-} from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaPhoneAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./Footer.css";
 
@@ -27,13 +22,6 @@ const Footer = () => {
           rel="noopener noreferrer"
         >
           <FaInstagram />
-        </Link>
-        <Link
-          to="https://www.linkedin.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaLinkedin />
         </Link>
       </div>
       <div className="row justify-content-between my-4 mx-5">
@@ -61,7 +49,7 @@ const Footer = () => {
           </div>
         </div>
         {/* this col is for map */}
-        <div className="col-lg-3 col-sm-6 my-4 div_map">
+        <div className="col-lg-3 col-sm-6 my-1 div_map">
           {
             <iframe
               title="myfooterunique"
