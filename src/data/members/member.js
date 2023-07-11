@@ -15,7 +15,7 @@ import YUKESH from "../assets/members/YUKESH.jpg";
         "id": 1002,
         "name": "Suraj Bhusal",
         "position": "Vice President",
-        "image": "",
+        "face": "",
         "facebook": "suraj.bhusal.9083477",
         "email": "bhusalsuraj1009@gmail.com",
         "phone": "9746413683"
@@ -24,7 +24,7 @@ import YUKESH from "../assets/members/YUKESH.jpg";
         "id": 1003,
         "name": "Bonus Pradhan",
         "position": "Treasurer",
-        "image": BONUS,
+        "face": BONUS,
         "facebook": "",
         "email": "jpta457@gmail.com",
         "phone": "9819353950"
@@ -33,7 +33,7 @@ import YUKESH from "../assets/members/YUKESH.jpg";
         "id": 1004,
         "name": "Narayan Shrestha",
         "position": "Secretary",
-        "image": NARAYAN,
+        "face": NARAYAN,
         "facebook": "profile.php?id=100029605097084",
         "email": "naaraayaanshrestha157@gmail.com",
         "phone": "9860446007"
@@ -42,7 +42,7 @@ import YUKESH from "../assets/members/YUKESH.jpg";
         "id": 1005,
         "name": "Dikshina Bhatarai",
         "position": "Vice secretary",
-        "image": "",
+        "face": "",
         "facebook": "rojina.poudel.7528",
         "email": "dikshinabhattarai@gmail.com",
         "phone": "9804985488"
@@ -51,7 +51,7 @@ import YUKESH from "../assets/members/YUKESH.jpg";
         "id": 1006,
         "name": "Sagar Khanal",
         "position": "Logistic Manager",
-        "image": SAGAR,
+        "face": SAGAR,
         "facebook": "profile.php?id=100083647334308",
         "email": "khanalsagar236@gmail.com",
         "phone": "9847992321"
@@ -60,7 +60,7 @@ import YUKESH from "../assets/members/YUKESH.jpg";
         "id": 1007,
         "name": "Prakash Dev",
         "position": "Technical Manager",
-        "image": PRAKASH,
+        "face": PRAKASH,
         "facebook": "prakashdev898",
         "email": "prakashdev898@gmail.com",
         "phone": ""
@@ -69,7 +69,7 @@ import YUKESH from "../assets/members/YUKESH.jpg";
         "id": 1008,
         "name": "Binita Tamang",
         "position": "Event Manager",
-        "image":BINITA,
+        "face":BINITA,
         "facebook": "profile.php?id=100038749573799",
         "email": "tbinita265@gmail.com",
         "phone": ""
@@ -78,7 +78,7 @@ import YUKESH from "../assets/members/YUKESH.jpg";
         "id": 1009,
         "name": "Deepan Ghimire",
         "position": "Ass. Event Manager",
-        "image": "",
+        "face": "",
         "facebook": "dipan.ghimire.1",
         "email": "dpnghimire@gmail.com",
         "phone": "9816948904"
@@ -87,7 +87,7 @@ import YUKESH from "../assets/members/YUKESH.jpg";
         "id": 1010,
         "name": "Babita Khatiwada",
         "position": "PR Manager",
-        "image": BABITA,
+        "face": BABITA,
         "facebook": "babita.khatiwada.777",
         "email": "",
         "phone": ""
@@ -96,7 +96,7 @@ import YUKESH from "../assets/members/YUKESH.jpg";
         "id": 1011,
         "name": "Saksham Katwal",
         "position": "Assistant PR",
-        "image": "",
+        "face": "",
         "facebook": "saksham.katwal.58",
         "email": "katwalsakhsam18@gmail.com",
         "phone": "9826995600"
@@ -105,7 +105,7 @@ import YUKESH from "../assets/members/YUKESH.jpg";
         "id": 1012,
         "name": "Mahendra Sunar",
         "position": "Executive Member",
-        "image": MAHENDRA,
+        "face": MAHENDRA,
         "facebook": "profile.php?id=100092447470519",
         "email": "sunarmahendra419@gmail.com",
         "phone": "9865447591"
@@ -114,7 +114,7 @@ import YUKESH from "../assets/members/YUKESH.jpg";
         "id": 1013,
         "name": "Manjita Koirala",
         "position": "Executive Member",
-        "image": MANJITA,
+        "face": MANJITA,
         "facebook": "manjita.koirala.52",
         "email": "koiralamanjita1@gmail.com",
         "phone": ""
@@ -123,7 +123,7 @@ import YUKESH from "../assets/members/YUKESH.jpg";
         "id": 1014,
         "name": "Pratik Pradhan",
         "position": "Executive Member",
-        "image": "",
+        "face": "",
         "facebook": "profile.php?id=100024495501858",
         "email": "pratikpardhan196@gmail.com",
         "phone": "9806032104"
@@ -132,7 +132,7 @@ import YUKESH from "../assets/members/YUKESH.jpg";
         "id": 1015,
         "name": "Yukesh Poudel",
         "position": "Executive Member",
-        "image": YUKESH,
+        "face": YUKESH,
         "facebook": "yukesh.poudel.1",
         "email": "yukeshpoudel963@gmail.com",
         "phone": "9769813413"

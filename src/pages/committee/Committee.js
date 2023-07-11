@@ -13,7 +13,7 @@ const Committee = () => {
         <div className="members">
           <div className="president">
           <div className="member">
-            <img width={150} height={150} src={president} alt="Image loading.."/>
+            <img width={150} height={150} src={president} />
             <div className="description">
                 <h1>Anil Dangi</h1>
                 <h2>President</h2>
@@ -30,7 +30,7 @@ const Committee = () => {
 
            
           return <div className="member" key={member.id}>
-            <img width={200} height={200} src={member.image} alt="Image Loading" />
+            <img width={200} height={200} src={member.face}  />
             <div className="description">
                 <h1>{member.name}</h1>
                 <h2>{member.position}</h2>
