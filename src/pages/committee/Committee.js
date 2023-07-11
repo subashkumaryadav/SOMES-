@@ -7,14 +7,13 @@ import president from "../../data/assets/members/ANIL.jpg";
 import { Link } from "react-router-dom";
 const Committee = () => {
   return <Layout title={"Committee-SOMES"}>
-     <div id='committe' style={{backgroundColor:"#fffee1"}}>
+     <div id='committe' style={{backgroundColor:"#FFFFF6"}}>
        
         <div className="somes_committe">
         <h1 className='model-title'>Our Team</h1>
         <h2>SOMES 2080</h2>
+        <h3 >Executive Committee</h3>
         </div>
-        
-        <div className="divider"><hr/></div>
         <div className="members">
           <div className="president">
           <div className="member">

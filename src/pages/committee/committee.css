@@ -14,7 +14,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.somes_committe h1,h2,h3{
+    margin: 0;
+    padding: 0;
 }
 #committe h1{
     margin: 20px 0;
