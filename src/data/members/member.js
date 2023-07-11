@@ -40,7 +40,7 @@ import YUKESH from "../assets/members/YUKESH.jpg";
       },
       {
         "id": 1005,
-        "name": "Dikshina Bhatarai",
+        "name": "Dakshina Bhatarai",
         "position": "Vice secretary",
         "face": "",
         "facebook": "rojina.poudel.7528",
