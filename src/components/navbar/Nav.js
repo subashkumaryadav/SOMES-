@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import "./styles.css";
 
 const Nav = () => {
@@ -25,33 +25,66 @@ const Nav = () => {
           >
             <span className="navbar-toggler-icon" />
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav ms-auto mb-2 mx-4 mb-lg-0">
-              <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">
+          <div
+            className="collapse navbar-collapse justify-content-center"
+            id="navbarSupportedContent"
+          >
+            <ul className="navbar-nav mb-2 mb-lg-0 ">
+              <li className="nav-item mx-3">
+                <NavLink
+                  className="nav-link "
+                  activeClassName="active-link"
+                  aria-current="page"
+                  to="/"
+                >
                   Home
-                </Link>
+                </NavLink>
               </li>
 
-              <li className="nav-item">
-                <Link className="nav-link" to="/committee">
+              <li className="nav-item mx-3">
+                <NavLink
+                  className="nav-link"
+                  activeClassName="active-link"
+                  to="/committee"
+                >
                   Committee
-                </Link>
+                </NavLink>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/notes">
+              <li className="nav-item mx-3">
+                <NavLink
+                  className="nav-link"
+                  activeClassName="active-link"
+                  to="/notes"
+                >
                   Notes
-                </Link>
+                </NavLink>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/events">
+              <li className="nav-item mx-3">
+                <NavLink
+                  className="nav-link"
+                  activeClassName="active-link"
+                  to="/events"
+                >
                   Events
-                </Link>
+                </NavLink>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/alumni">
+              <li className="nav-item mx-3">
+                <NavLink
+                  className="nav-link"
+                  activeClassName="active-link"
+                  to="/gallery"
+                >
+                  Gallery
+                </NavLink>
+              </li>
+              <li className="nav-item mx-3">
+                <NavLink
+                  className="nav-link"
+                  activeClassName="active-link"
+                  to="/alumni"
+                >
                   Alumni
-                </Link>
+                </NavLink>
               </li>
             </ul>
           </div>
