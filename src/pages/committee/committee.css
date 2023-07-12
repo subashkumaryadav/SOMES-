@@ -19,11 +19,24 @@
     padding: 0;
     color: white;
 }
-.somes_committe h1,h2,h3{
+.somes_committe h2,h3{
     margin: 0;
     padding: 0;
-    text-shadow: 2px -3px 3px rgba(0, 0, 0, 0.297);
+    text-shadow:  0px 0px 0 rgb(233,232,228),
+    0px 1px 0 rgb(221,220,216),
+    0px 2px 0 rgb(209,208,204),
+    0px 3px 0 rgb(197,196,192),
+    0px 4px 0 rgb(185,184,180),
+    0px 5px 0 rgb(173,172,168),
+    0px 6px 0 rgb(161,160,156),
+    0px 7px 0 rgb(149,148,144),
+    0px 8px 0 rgb(137,136,132),
+    0px 9px  0 rgb(125,124,120),
+    0px 10px 9px rgba(0,0,0,0.46),
+    0px 10px 1px rgba(0,0,0,0.5),
+    0px 0px 9px rgba(0,0,0,.2);
     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 #committe h1{
     margin: 20px 0;
@@ -81,7 +94,7 @@
 
 #committe img
 {
-    border-radius: 50%;
+   border-radius: 50%;
     transition: all 1s;
    
 }

@@ -3,7 +3,7 @@ import Layout from "../../components/layout/Layout";
 import { FaFacebook, FaPhone,FaMailBulk } from "react-icons/fa";
 import './committee.css';
 import datas from "../../data/members/member.js";
-import president from "../../data/assets/members/ANIL.jpg";
+import president from "../../assets/members/ANIL.jpg";
 import { Link } from "react-router-dom";
 const Committee = () => {
   return <Layout title={"Committee-SOMES"}>
