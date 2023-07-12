@@ -8,6 +8,8 @@ import Notes from "./pages/notes/Notes";
 import GoToTop from "./components/topButton/GoToTop";
 import ScrollToTop from "./components/scrollToTop/ScrollToTop";
 import Gal from "./pages/gallery/Gal";
+import PageNotFound from "./pages/pageNotFound/PageNotFound";
+
 const LazyEvents = React.lazy(() => import("./pages/events/Events.js"));
 
 const App = () => {
@@ -29,6 +31,7 @@ const App = () => {
             }
           ></Route>
           <Route path="/gallery" element={<Gal />}></Route>
+          <Route path="*" element={<PageNotFound />}></Route>
         </Routes>
       </Router>
       <GoToTop />

@@ -29,7 +29,7 @@ const Notes = () => {
   }, []);
 
   return (
-    <Layout>
+    <Layout title={"Notes-SOMES"}>
       <ToastContainer />
       <div className={style.note_head}>
         <h3>BE MECHANICAL STUDY MATERIALS</h3>
