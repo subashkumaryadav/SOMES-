@@ -1,12 +1,17 @@
-import BABITA from "../assets/members/BABITA.jpg";
-import BONUS from "../assets/members/BONUS.jpg";
-import BINITA from "../assets/members/BINITA.jpg";
-import MAHENDRA from "../assets/members/MAHENDRA.jpg";
-import MANJITA from "../assets/members/MANJITA.jpg";
-import NARAYAN from "../assets/members/NARAYAN.jpg";
-import PRAKASH from "../assets/members/PRAKASH.jpg";
-import SAGAR from "../assets/members/SAGAR.jpg";
-import YUKESH from "../assets/members/YUKESH.jpg";
+import BABITA from "../../assets/members/BABITA.jpg";
+import BONUS from "../../assets/members/BONUS.jpg";
+import BINITA from "../../assets/members/BINITA.jpg";
+import MAHENDRA from "../../assets/members/MAHENDRA.jpg";
+import MANJITA from "../../assets/members/MANJITA.jpg";
+import NARAYAN from "../../assets/members/NARAYAN.jpg";
+import PRAKASH from "../../assets/members/PRAKASH.jpg";
+import SAGAR from "../../assets/members/SAGAR.jpg";
+import YUKESH from "../../assets/members/YUKESH.jpg";
+import DAKSHINA from "../../assets/members/DAKSHINA .jpg";
+import SURAJ from "../../assets/members/SURAJ.gif";
+import DIPAN from "../../assets/members/DIPAN.jpg";
+import SAKSHAM from "../../assets/members/SAKSHAM.jpg";
+import PRATIK from "../../assets/members/PRATIK.jpg";
 
 
  const members = [
@@ -15,7 +20,7 @@ import YUKESH from "../assets/members/YUKESH.jpg";
         "id": 1002,
         "name": "Suraj Bhusal",
         "position": "Vice President",
-        "face": "",
+        "face": SURAJ,
         "facebook": "suraj.bhusal.9083477",
         "email": "bhusalsuraj1009@gmail.com",
         "phone": "9746413683"
@@ -40,9 +45,9 @@ import YUKESH from "../assets/members/YUKESH.jpg";
       },
       {
         "id": 1005,
-        "name": "Dikshina Bhatarai",
+        "name": "Dakshina Bhatarai",
         "position": "Vice secretary",
-        "face": "",
+        "face": DAKSHINA,
         "facebook": "rojina.poudel.7528",
         "email": "dikshinabhattarai@gmail.com",
         "phone": "9804985488"
@@ -78,7 +83,7 @@ import YUKESH from "../assets/members/YUKESH.jpg";
         "id": 1009,
         "name": "Deepan Ghimire",
         "position": "Ass. Event Manager",
-        "face": "",
+        "face": DIPAN,
         "facebook": "dipan.ghimire.1",
         "email": "dpnghimire@gmail.com",
         "phone": "9816948904"
@@ -96,7 +101,7 @@ import YUKESH from "../assets/members/YUKESH.jpg";
         "id": 1011,
         "name": "Saksham Katwal",
         "position": "Assistant PR",
-        "face": "",
+        "face": SAKSHAM,
         "facebook": "saksham.katwal.58",
         "email": "katwalsakhsam18@gmail.com",
         "phone": "9826995600"
@@ -123,7 +128,7 @@ import YUKESH from "../assets/members/YUKESH.jpg";
         "id": 1014,
         "name": "Pratik Pradhan",
         "position": "Executive Member",
-        "face": "",
+        "face": PRATIK,
         "facebook": "profile.php?id=100024495501858",
         "email": "pratikpardhan196@gmail.com",
         "phone": "9806032104"
