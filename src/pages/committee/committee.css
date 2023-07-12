@@ -60,12 +60,7 @@
     align-items: center;
     position: relative;
     cursor: pointer;
-    --mask: 
-    conic-gradient(from 72.5deg at left,#0000,#000 1deg 34deg,#0000 35deg) left/51% 18.92px repeat-y,
-    conic-gradient(from -107.5deg at right,#0000,#000 1deg 34deg,#0000 35deg) right/51% 18.92px repeat-y;
-  -webkit-mask: var(--mask);
-          mask: var(--mask);
- 
+   
 }
 
 #committe .member::after
